@@ -1,15 +1,16 @@
 import React, {useEffect, useState} from 'react';
 
 
-function Contact() {
-
+function SectionGallery() {
 
 
 
     return (
         <>
+
+
         </>
     );
 }
 
-export default Contact;
+export default SectionGallery;

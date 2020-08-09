@@ -36,6 +36,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\makus\Desktop\wszystkie projekty\Git_Portfolio\painter_portfolio\src" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -46,7 +51,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596798525334</updated>
-      <workItem from="1596798526553" duration="7733000" />
+      <workItem from="1596798526553" duration="15893000" />
+      <workItem from="1596975498106" duration="3170000" />
+      <workItem from="1596978720598" duration="13221000" />
     </task>
     <servers />
   </component>
@@ -54,17 +61,33 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596809524767">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596820210408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596809524767" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596820210408" />
     <state x="627" y="298" key="EditFileWatcherDialog" timestamp="1596799216976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="298" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596799216976" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1596807241370">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1596979722983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596807241370" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596979722983" />
+    <state width="1899" height="275" key="GridCell.Tab.0.bottom" timestamp="1596986133498">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596986133498" />
+    <state width="1899" height="275" key="GridCell.Tab.0.center" timestamp="1596986133498">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596986133498" />
+    <state width="1899" height="275" key="GridCell.Tab.0.left" timestamp="1596986133498">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596986133498" />
+    <state width="1899" height="275" key="GridCell.Tab.0.right" timestamp="1596986133498">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596986133498" />
   </component>
 </project>
