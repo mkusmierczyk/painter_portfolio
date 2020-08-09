@@ -19,6 +19,7 @@ function SectionBar() {
     ul{
     display: flex;
     flex-direction: row;
+
     `
 
     const SectionInfo = styled.section`
@@ -40,8 +41,11 @@ function SectionBar() {
     ${Icon} 
     `
 
-    const SectionInfoContact = styled.div`
-    ${DisplayRow}
+    const SectionInfoContact = styled.div`   
+    ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     a{
     font-size: 0.7rem;
     font-weight: light;

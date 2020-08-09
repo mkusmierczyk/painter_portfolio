@@ -46,7 +46,7 @@ $column-base-width: 100% / $columns;
 
 .container {
   width: 100%;
-  max-width: 1352px;
+  max-width: 1100px;
   margin: 0 auto;
 
   .row {
