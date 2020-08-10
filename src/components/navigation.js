@@ -27,8 +27,8 @@ function Navigation() {
     justify-content: flex-end;  
     @media (max-width: 600px){
     width: 70%;
-        display: ${menuDisplay};
-       position: absolute;
+    display: ${menuDisplay};
+    position: absolute;
   }     
              
   }       

@@ -6,6 +6,7 @@ import Footer from "./components/footer";
 import Gallery from "./components/gallery";
 import Contact from "./components/contact";
 import SectionBar from "./components/sectionBar";
+import Title from "./components/title";
 
 function App() {
 
@@ -17,18 +18,21 @@ function App() {
                 <Route exact path={"/"}>
                     <SectionBar/>
                     <Header/>
+                    <Title/>
                     <SectionGallery/>
                     <Footer/>
                 </Route>
                 <Route exact path={"/paintings"}>
                     <SectionBar/>
                     <Header/>
+                    <Title/>
                     <Gallery/>
                     <Footer/>
                 </Route>
                 <Route exact path={"/contact"}>
                     <SectionBar/>
                     <Header/>
+                    <Title/>
                     <Contact/>
                     <Footer/>
                 </Route>
