@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/painter_portfolio/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/painter_portfolio/static/js/main.3d944ecd.chunk.js",
+    "main.js.map": "/painter_portfolio/static/js/main.3d944ecd.chunk.js.map",
+    "runtime-main.js": "/painter_portfolio/static/js/runtime-main.95cc4673.js",
+    "runtime-main.js.map": "/painter_portfolio/static/js/runtime-main.95cc4673.js.map",
+    "static/js/2.4fc9c762.chunk.js": "/painter_portfolio/static/js/2.4fc9c762.chunk.js",
+    "static/js/2.4fc9c762.chunk.js.map": "/painter_portfolio/static/js/2.4fc9c762.chunk.js.map",
+    "index.html": "/painter_portfolio/index.html",
+    "precache-manifest.00ef2aede104a3bffab44a3b0762f79f.js": "/painter_portfolio/precache-manifest.00ef2aede104a3bffab44a3b0762f79f.js",
+    "service-worker.js": "/painter_portfolio/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/painter_portfolio/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.4fc9c762.chunk.js.LICENSE.txt": "/painter_portfolio/static/js/2.4fc9c762.chunk.js.LICENSE.txt",
+    "static/media/image0.jpeg": "/painter_portfolio/static/media/image0.79eead8e.jpeg",
+    "static/media/image1.jpeg": "/painter_portfolio/static/media/image1.8723102a.jpeg",
+    "static/media/image2.jpeg": "/painter_portfolio/static/media/image2.fbab8bd7.jpeg",
+    "static/media/image3.jpeg": "/painter_portfolio/static/media/image3.79eead8e.jpeg",
+    "static/media/image4.jpeg": "/painter_portfolio/static/media/image4.bb83ef05.jpeg",
+    "static/media/image5.jpeg": "/painter_portfolio/static/media/image5.da833bac.jpeg",
+    "static/media/image6.jpeg": "/painter_portfolio/static/media/image6.26449437.jpeg",
+    "static/media/splash_pink.svg": "/painter_portfolio/static/media/splash_pink.e360f3f8.svg",
+    "static/media/splash_red.svg": "/painter_portfolio/static/media/splash_red.41b2f231.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.95cc4673.js",
+    "static/js/2.4fc9c762.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.3d944ecd.chunk.js"
+  ]
+}
