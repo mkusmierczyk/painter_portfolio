@@ -12,14 +12,13 @@ function SectionGallery() {
 
 
     const Gallery = styled.section`
-    width: 100%;
-        display: flex;
-        justify-content: center;
+        width: 100vw;
+     
     `
 
     return (
         <>
-            <Gallery>
+            <Gallery >
                 <img src={Painting1}/>
                 <img src={Painting2}/>
                 <img src={Painting3}/>
