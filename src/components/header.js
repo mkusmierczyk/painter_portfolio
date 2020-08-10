@@ -1,18 +1,19 @@
 import React from 'react';
 import styled from 'styled-components';
 import Navigation from "./navigation";
-
 function Header() {
 
 
     const HeaderTag = styled.header`  
-    display: flex
-    height: 12vh;
+    display: flex;
+   flex-wrap: wrap;
+    height: 10vh;
     width: 100%;
     color: #0d0d0d;
     .align{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     }
     `;
 
@@ -20,6 +21,10 @@ function Header() {
     @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
     font-family: 'Rock Salt', cursive;
     font-weight: bold;
+    width: 50%;
+    @media (max-width: 800px){
+    width:30%
+    }
         }
     `;
 
@@ -29,7 +34,7 @@ function Header() {
             <HeaderTag>
                 <div className="container">
                     <div className="row align">
-                        <Title className="col-6">
+                        <Title >
                             Michał Pasternak
                         </Title>
                         <Navigation/>

@@ -51,12 +51,6 @@ $column-base-width: 100% / $columns;
 
   .row {
     display: flex;
-
-    [class*='col-'] {
-      min-height: 1px;
-      width: $column-base-width;
-      padding: 0;
-    }
     
     .col-6{
     min-height: 1px;
@@ -64,11 +58,6 @@ $column-base-width: 100% / $columns;
       padding: 0;
     }
 
-    @for $i from 1 through $columns {
-      .col-#{$i} {
-        width: $column-base-width * $i;
-      }
-    }
   }
 }
 `

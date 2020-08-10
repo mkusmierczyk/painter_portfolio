@@ -15,22 +15,32 @@ function SectionBar() {
     margin: 5px;
     `
 
-    const DisplayRow = `
-    ul{
-    display: flex;
-    flex-direction: row;
-
-    `
-
     const SectionInfo = styled.section`
     background-color: #58595b;
     color: #ffffff;
     padding: 8px 0;
     margin: 0, auto;
+    .columnBar{
+     @media (max-width: 600px){
+     display: flex;
+     flex-direction: column;
+    }
+    }
    `
 
     const SectionInfoMedia = styled.div`
-    ${DisplayRow}
+    width: 50%;
+    @media (max-width: 600px){
+    width:100%;}
+    ul{  
+    display: flex;
+    flex-direction: row;
+    @media (max-width: 600px){
+    display:flex;
+    justify-content: center;
+    }
+    
+    }
     `
 
     const FacebookIcon = styled(Facebook)`
@@ -42,10 +52,22 @@ function SectionBar() {
     `
 
     const SectionInfoContact = styled.div`   
+    width: 50%;
+    @media (max-width: 600px){
+    width:100%;}
     ul{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+
+    @media (max-width: 600px){
+    display:flex;
+    justify-content: center;}
+    li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
     a{
     font-size: 0.7rem;
     font-weight: light;
@@ -64,14 +86,14 @@ function SectionBar() {
         <>
             <SectionInfo>
                 <div className="container">
-                    <div className="row">
-                        <SectionInfoMedia className="col-6">
+                    <div className="row columnBar">
+                        <SectionInfoMedia >
                             <ul>
                                 <li><a href="#"><FacebookIcon/> </a></li>
                                 <li><a href="#"><InstagramIcon/> </a></li>
                             </ul>
                         </SectionInfoMedia>
-                        <SectionInfoContact className="col-6">
+                        <SectionInfoContact>
                             <ul>
                                 <li><EmailIcon/><a href="tel:+48691326101">+48 691 326 101</a></li>
                                 <li><MobileIcon/><a href="mailto:judamerkva@gmail.com">judamerkva@gmail.com</a></li>
