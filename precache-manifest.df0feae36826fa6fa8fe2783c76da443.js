@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "815e9a9f05091444b08ef8c822fd998d",
+    "revision": "dcdeb5f597a1055f7d76f080aace00a5",
     "url": "/painter_portfolio/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/painter_portfolio/static/js/2.0a1df96b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "977110fe10e81f00861e",
-    "url": "/painter_portfolio/static/js/main.c9c2a994.chunk.js"
+    "revision": "e1d05d35f742178a77f7",
+    "url": "/painter_portfolio/static/js/main.ed145e30.chunk.js"
   },
   {
     "revision": "f9481ab02d00d3dfd87b",
