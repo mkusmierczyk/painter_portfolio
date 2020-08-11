@@ -1,9 +1,9 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import styled from 'styled-components';
 
-function Title() {
+function Title(props) {
 
-
+console.log(props)
     const Title = styled.h1`
     width: 100%;
     height: 15vh;
@@ -16,7 +16,7 @@ function Title() {
 
     return (
         <>
-        <Title> GALERIA</Title>
+        <Title> {props.Name}</Title>
         </>
     );
 }

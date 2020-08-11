@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {BrowserRouter as Router, Link, Route} from "react-router-dom";
+import { Link } from "react-router-dom";
 import styled from 'styled-components';
 import {Navicon} from '@styled-icons/evil/Navicon'
 import Blue from '../assets/splash_blue.png';
@@ -150,9 +150,9 @@ function Navigation() {
             <Nav>
 
                 <ul>
-                    <li><Link to={"/"}>Start</Link></li>
-                    <li><Link to={"/paintings"}>Galeria</Link></li>
-                    <li><Link to={"/paintings"}>Wnętrza</Link></li>
+                    <li><Link to={"/"}>Galeria</Link></li>
+                    <li><Link to={"/paintings"}>Portfolio</Link></li>
+                    <li><Link to={"/interiors"}>Wnętrza</Link></li>
                     <li><Link to={"/contact"}>Kontakt</Link></li>
                 </ul>
                 <CloseMenu onClick={menuOnClickClose}> X</CloseMenu>

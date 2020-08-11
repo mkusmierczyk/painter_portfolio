@@ -22,7 +22,7 @@ function Header() {
     }
     `;
 
-    const Title = styled.h1`
+    const Name = styled.h1`
     @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
     font-family: 'Rock Salt', cursive;
     color: #0d0d0d;
@@ -42,9 +42,9 @@ function Header() {
             <HeaderTag>
                 <div className="container">
                     <div className="row align">
-                        <Title>
+                        <Name>
                             Michał Pasternak
-                        </Title>
+                        </Name>
                         <Navigation/>
                     </div>
                 </div>
