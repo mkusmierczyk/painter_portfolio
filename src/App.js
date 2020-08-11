@@ -5,7 +5,7 @@ import {normalize} from 'styled-normalize'
 import Header from "./components/header";
 import SectionGallery from "./components/sectionGallery";
 import Footer from "./components/footer";
-import Gallery from "./components/gallery";
+import Portfolio from "./components/portfolio";
 import Contact from "./components/contact";
 import SectionBar from "./components/sectionBar";
 import Title from "./components/title";
@@ -67,27 +67,27 @@ $column-base-width: 100% / $columns;
 
     return (
         <div className="App">
-            <GlobalStyle/>
             <Router>
-                <Route exact path={"/"}>
+                <GlobalStyle/>
+                <Route exact path={"/painter_portfolio"}>
                     <SectionBar/>
                     <Header/>
                     <Title Name={"GALERIA"}/>
                     <SectionGallery/>
                     <Footer/>
                 </Route>
-                <Route exact path={"/paintings"}>
+                <Route exact path={"/portfolio"}>
                     <SectionBar/>
                     <Header/>
                     <Title Name={"PORTFOLIO"}/>
-                    <Gallery/>
+                    <Portfolio/>
                     <Footer/>
                 </Route>
                 <Route exact path={"/interiors"}>
                     <SectionBar/>
                     <Header/>
                     <Title Name={"WNĘTRZA"}/>
-                    <Gallery/>
+                    <SectionGallery/>
                     <Footer/>
                 </Route>
                 <Route exact path={"/contact"}>

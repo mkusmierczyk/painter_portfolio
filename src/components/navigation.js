@@ -150,8 +150,8 @@ function Navigation() {
             <Nav>
 
                 <ul>
-                    <li><Link to={"/"}>Galeria</Link></li>
-                    <li><Link to={"/paintings"}>Portfolio</Link></li>
+                    <li><Link to={"/painter_portfolio"}>Galeria</Link></li>
+                    <li><Link to={"/portfolio"}>Portfolio</Link></li>
                     <li><Link to={"/interiors"}>Wnętrza</Link></li>
                     <li><Link to={"/contact"}>Kontakt</Link></li>
                 </ul>
