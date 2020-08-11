@@ -27,7 +27,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Kulturka" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../in_good_hands" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -58,7 +58,7 @@
       <workItem from="1597012736537" duration="2645000" />
       <workItem from="1597053873581" duration="19221000" />
       <workItem from="1597084067550" duration="7734000" />
-      <workItem from="1597137459180" duration="14477000" />
+      <workItem from="1597137459180" duration="18414000" />
     </task>
     <servers />
   </component>
@@ -74,10 +74,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="298" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596799216976" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597093869213">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597156627094">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597093869213" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597156627094" />
     <state width="1882" height="270" key="GridCell.Tab.0.bottom" timestamp="1597012796753">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
