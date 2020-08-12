@@ -3,11 +3,14 @@ import styled from 'styled-components';
 
 function Title(props) {
 
-console.log(props)
-    const Title = styled.h1`
+
+    const Title = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 15vh;
-    font-size: 5vh;
+    font-size: 2.5vh;
     color: rgba(219, 219, 219, 1);
     background-color: black;
     text-align: center;
@@ -16,7 +19,7 @@ console.log(props)
 
     return (
         <>
-        <Title> {props.Name}</Title>
+            <Title> <h1>{props.Name}</h1></Title>
         </>
     );
 }

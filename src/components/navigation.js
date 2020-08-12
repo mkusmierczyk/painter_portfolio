@@ -71,7 +71,6 @@ function Navigation() {
     font-weight: bold;
     font-size: 2rem;
     border: 0px;
-    
   }
     }
     
@@ -139,7 +138,7 @@ function Navigation() {
     `
     const CloseMenu = styled.span`
      display: none;
-       @media (max-width: 800px){
+       @media (max-width: 600px){
     display: block;
     }
         

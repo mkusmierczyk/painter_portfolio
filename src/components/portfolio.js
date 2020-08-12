@@ -4,15 +4,25 @@ import Painting4 from '../assets/image3.jpeg';
 
 function Portfolio() {
 
-    const Events = styled.div`
-      
+    const Portfolio = styled.div`
+    
+    .portfolio_image{
+     @media (max-width: 800px){
+    display: none;
+    }
+    
+    `
+
+    const Events = styled.div` 
     width: 50%; 
+    margin: 5px;
+    @media (max-width: 800px){
+    width: 100%;
+    }
     h1{
     font-weight: bold;
     margin: 10px;
     text-align: center;
-    @media (max-width: 800px){
-    width:100%
      }
     `
     const Year = styled.h2`
@@ -34,17 +44,15 @@ function Portfolio() {
     background: url(${Painting4}) no-repeat ;
         width: 50vw;
         height: 50vw;
-        @media (max-width: 800px){
-        display:none;
+      
      }
         
     `
 
-
     return (
         <>
             <section className="container">
-                <div className="row">
+                <Portfolio className="row">
                     <Events>
                         <h1>WYDARZENIA</h1>
                         <Year>2019</Year>
@@ -75,10 +83,10 @@ function Portfolio() {
                         </Event>
 
                     </Events>
-                    <div className="col-6">
+                    <div className="col-6 portfolio_image">
                         <Image/>
                     </div>
-                </div>
+                </Portfolio>
             </section>
         </>
     );
