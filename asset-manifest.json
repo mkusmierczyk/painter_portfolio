@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.js": "/painter_portfolio/static/js/main.40c03bac.chunk.js",
-    "main.js.map": "/painter_portfolio/static/js/main.40c03bac.chunk.js.map",
+    "main.css": "/painter_portfolio/static/css/main.f891afc5.chunk.css",
+    "main.js": "/painter_portfolio/static/js/main.bbcb612c.chunk.js",
+    "main.js.map": "/painter_portfolio/static/js/main.bbcb612c.chunk.js.map",
     "runtime-main.js": "/painter_portfolio/static/js/runtime-main.95cc4673.js",
     "runtime-main.js.map": "/painter_portfolio/static/js/runtime-main.95cc4673.js.map",
-    "static/js/2.e420aa1e.chunk.js": "/painter_portfolio/static/js/2.e420aa1e.chunk.js",
-    "static/js/2.e420aa1e.chunk.js.map": "/painter_portfolio/static/js/2.e420aa1e.chunk.js.map",
+    "static/js/2.aa6e94fe.chunk.js": "/painter_portfolio/static/js/2.aa6e94fe.chunk.js",
+    "static/js/2.aa6e94fe.chunk.js.map": "/painter_portfolio/static/js/2.aa6e94fe.chunk.js.map",
     "index.html": "/painter_portfolio/index.html",
-    "precache-manifest.f87a3072d892738adb03dba9be222d83.js": "/painter_portfolio/precache-manifest.f87a3072d892738adb03dba9be222d83.js",
+    "precache-manifest.aece15067015696e84eaa8cbc9f63dc4.js": "/painter_portfolio/precache-manifest.aece15067015696e84eaa8cbc9f63dc4.js",
     "service-worker.js": "/painter_portfolio/service-worker.js",
-    "static/js/2.e420aa1e.chunk.js.LICENSE.txt": "/painter_portfolio/static/js/2.e420aa1e.chunk.js.LICENSE.txt",
+    "static/css/main.f891afc5.chunk.css.map": "/painter_portfolio/static/css/main.f891afc5.chunk.css.map",
+    "static/js/2.aa6e94fe.chunk.js.LICENSE.txt": "/painter_portfolio/static/js/2.aa6e94fe.chunk.js.LICENSE.txt",
+    "static/media/envelope-regular.1a9020c3.svg": "/painter_portfolio/static/media/envelope-regular.1a9020c3.svg",
+    "static/media/facebook-square-brands.34e73505.svg": "/painter_portfolio/static/media/facebook-square-brands.34e73505.svg",
     "static/media/image0.jpeg": "/painter_portfolio/static/media/image0.79eead8e.jpeg",
     "static/media/image1.jpeg": "/painter_portfolio/static/media/image1.8723102a.jpeg",
     "static/media/image2.jpeg": "/painter_portfolio/static/media/image2.fbab8bd7.jpeg",
@@ -17,12 +21,16 @@
     "static/media/image4.jpeg": "/painter_portfolio/static/media/image4.bb83ef05.jpeg",
     "static/media/image5.jpeg": "/painter_portfolio/static/media/image5.da833bac.jpeg",
     "static/media/image6.jpeg": "/painter_portfolio/static/media/image6.26449437.jpeg",
-    "static/media/splash_pink.svg": "/painter_portfolio/static/media/splash_pink.e360f3f8.svg",
-    "static/media/splash_red.svg": "/painter_portfolio/static/media/splash_red.41b2f231.svg"
+    "static/media/instagram-brands.e75317fa.svg": "/painter_portfolio/static/media/instagram-brands.e75317fa.svg",
+    "static/media/palette-solid.8d77becb.svg": "/painter_portfolio/static/media/palette-solid.8d77becb.svg",
+    "static/media/pencil-ruler-solid.429f86e3.svg": "/painter_portfolio/static/media/pencil-ruler-solid.429f86e3.svg",
+    "static/media/quote-left-solid.efb5734b.svg": "/painter_portfolio/static/media/quote-left-solid.efb5734b.svg",
+    "static/media/tumblr-square-brands.b4709072.svg": "/painter_portfolio/static/media/tumblr-square-brands.b4709072.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.95cc4673.js",
-    "static/js/2.e420aa1e.chunk.js",
-    "static/js/main.40c03bac.chunk.js"
+    "static/js/2.aa6e94fe.chunk.js",
+    "static/css/main.f891afc5.chunk.css",
+    "static/js/main.bbcb612c.chunk.js"
   ]
 }
