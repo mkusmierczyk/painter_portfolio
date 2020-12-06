@@ -31,6 +31,9 @@
     margin-left: 5rem;
     padding: 1rem;
   }
+  [aria-current] svg {
+    color: rgb(130, 116, 116)
+  }
   
   .navbar {
     position: fixed;
@@ -62,7 +65,7 @@
     display: flex;
     align-items: center;
     height: 5rem;
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: var(--text-primary);
     text-decoration: none;
     filter: grayscale(100%) opacity(0.7);
@@ -99,7 +102,7 @@
     transition: var(--transition-speed);
   }
   
-  .logo {
+  .logo  {
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 1rem;
@@ -126,8 +129,18 @@
   
   .navbar:hover .logo svg {
     transform: rotate(-180deg);
+
+  }
+
+  .navbar:hover .logo svg {
+    transform: rotate(-180deg);
+  }
+  #themeButton {
+      display: flex;
   }
   
+
+
   /* Small screens */
   @media only screen and (max-width: 600px) {
     .navbar {
@@ -191,6 +204,16 @@
         margin-left:16rem;
         transition: margin-left 600ms ease;
     }
+    .navbar ~ .noNavi > header >.align > a{
+        margin-bottom:rem;
+        transition: margin-bottom 600ms ease;
+    }
+
+    .navbar:hover ~ .noNavi > header >.align > a{
+        margin-bottom:16rem;
+        transition: margin-bottom 600ms ease;
+    }
+
   }
   
   .dark {

@@ -16,7 +16,7 @@ import './App.css';
 function App() {
   const GlobalStyle = createGlobalStyle`
   ${normalize}
-   @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="styleshee');
+  font-family: 'Open Sans';
 
 html {
    box-sizing: border-box;
@@ -44,7 +44,7 @@ img {
 }
 
 body{
-  font-family: 'Lato', sans-serif;
+ 
 
   }
   
@@ -72,39 +72,41 @@ $column-base-width: 100% / $columns;
     <div className="App">
       <Router>
         <GlobalStyle />
-        <Route exact path={"/painter_portfolio"}>
+        <Route exact path={"/paintings"}>
           <Navigation />
          <div className = {'noNavi'}>
-
           <Header />
-          <Title Name={"GALERIA"} />
+          <Title Name={"MALARSTWO"} />
           <SectionGallery />
           <Footer />
           </div>
         </Route>
-        <Route exact path={"/portfolio"}>
+        <Route exact path={"/graphics"}>
           <Navigation />
-          <SectionBar />
+          <div className = {'noNavi'}>
           <Header />
-          <Title Name={"PORTFOLIO"} />
-          <Portfolio />
-          <Footer />
-        </Route>
-        <Route exact path={"/interiors"}>
-          <Navigation />
-          <SectionBar />
-          <Header />
-          <Title Name={"WNĘTRZA"} />
+          <Title Name={"GRAFIKA"} />
           <SectionGallery />
           <Footer />
+          </div>
+        </Route>
+        <Route exact path={"/about"}>
+          <Navigation />
+          <div className = {'noNavi'}>
+          <Header />
+          <Title Name={"O MNIE"} />
+          <Portfolio />
+          <Footer />
+          </div>
         </Route>
         <Route exact path={"/contact"}>
           <Navigation />
-          <SectionBar />
+          <div className = {'noNavi'}>
           <Header />
           <Title Name={"KONTAKT"} />
           <Contact />
           <Footer />
+          </div>
         </Route>
       </Router>
     </div>

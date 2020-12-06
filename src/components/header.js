@@ -5,9 +5,10 @@ import styled from 'styled-components';
 function Header() {
 
     const HeaderTag = styled.header`  
+    position: sticky;
+    top:0;
     display: flex;
     height: 5rem;
-
     background-color:  #141418;
     align-content: center;
     @media (max-width: 321px){
@@ -17,19 +18,28 @@ function Header() {
     .align{
     display: flex;
     align-items: center;
+   
     }
     `
 
     const Name = styled.a`
-    color:white;
-    font-size: 1.5rem;
+    
+    color: #ececec;
+    font-size: 1rem;
     font-weight: bold;
-    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ececec;
+    letter-spacing: 0.3ch;
+    width: 100%;
     &:hover{
-        color:red;
+        filter: grayscale(0%) opacity(1);
+        color: #b6b6b6;
     }
-    @media (max-width: 800px){
-    width:30%
+    @media (max-width: 600px){
+    margin-left: 1rem;
     }
     `
 
@@ -38,7 +48,7 @@ function Header() {
 
             <HeaderTag>
                     <div className="row align">
-                        <Name>
+                        <Name href="#">
                             MICHAL PASTERNAK
                         </Name>
                     

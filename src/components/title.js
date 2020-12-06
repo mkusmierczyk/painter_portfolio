@@ -11,9 +11,10 @@ function Title(props) {
     width: 100%;
     height: 15vh;
     font-size: 2.5vh;
-    color: rgba(219, 219, 219, 1);
+    color: #ececec;
     background-color: #23232e;
     text-align: center;
+    letter-spacing: 0.5ch;
     padding: 2rem 0;
     `
 

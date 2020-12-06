@@ -64,8 +64,6 @@ function SectionGallery() {
         setViewerIsOpen(false);
     };
 
-
-
     return (
         <div>
             <Gallery photos={photos}  onClick={openLightbox}  />
