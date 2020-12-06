@@ -5,6 +5,7 @@ import {Facebook} from '@styled-icons/boxicons-logos/Facebook'
 import {Instagram} from '@styled-icons/boxicons-logos/Instagram'
 import {Email} from '@styled-icons/evaicons-solid/Email'
 import {Mobile} from '@styled-icons/icomoon/Mobile'
+
 function Contact() {
 
 

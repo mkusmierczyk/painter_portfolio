@@ -1,52 +1,47 @@
 import React from 'react';
 import styled from 'styled-components';
-import Navigation from "./navigation";
+
 
 function Header() {
 
-
     const HeaderTag = styled.header`  
-  
     display: flex;
-   flex-wrap: wrap;
-    height: 10vh;
-    width: 100%;
-    color: #0d0d0d;
+    height: 5rem;
+
+    background-color:  #141418;
+    align-content: center;
     @media (max-width: 321px){
     height: 15vh;
     }
+
     .align{
     display: flex;
     align-items: center;
-    justify-content: space-between;
     }
-    `;
+    `
 
-    const Name = styled.h1`
-    @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
-    font-family: 'Rock Salt', cursive;
-    color: #0d0d0d;
+    const Name = styled.a`
+    color:white;
     font-size: 1.5rem;
     font-weight: bold;
-    width: 50%;
     margin: 10px;
+    &:hover{
+        color:red;
+    }
     @media (max-width: 800px){
     width:30%
     }
-        }
-    `;
+    `
 
     return (
         <>
 
             <HeaderTag>
-                <div className="container">
                     <div className="row align">
                         <Name>
-                            Michał Pasternak
+                            MICHAL PASTERNAK
                         </Name>
-                        <Navigation/>
-                    </div>
+                    
                 </div>
             </HeaderTag>
         </>

@@ -12,7 +12,7 @@ function Title(props) {
     height: 15vh;
     font-size: 2.5vh;
     color: rgba(219, 219, 219, 1);
-    background-color: black;
+    background-color: #23232e;
     text-align: center;
     padding: 2rem 0;
     `

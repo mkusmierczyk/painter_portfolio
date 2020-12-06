@@ -1,7 +1,7 @@
 import React from 'react';
-import {BrowserRouter as Router, Route} from "react-router-dom";
-import {createGlobalStyle} from 'styled-components'
-import {normalize} from 'styled-normalize'
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import { createGlobalStyle } from 'styled-components'
+import { normalize } from 'styled-normalize'
 import Header from "./components/header";
 import SectionGallery from "./components/sectionGallery";
 import Footer from "./components/footer";
@@ -9,9 +9,12 @@ import Portfolio from "./components/portfolio";
 import Contact from "./components/contact";
 import SectionBar from "./components/sectionBar";
 import Title from "./components/title";
+import Navigation from "./components/navigation";
+import './App.css';
+
 
 function App() {
-    const GlobalStyle = createGlobalStyle`
+  const GlobalStyle = createGlobalStyle`
   ${normalize}
    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="styleshee');
 
@@ -65,41 +68,47 @@ $column-base-width: 100% / $columns;
 }
 `
 
-    return (
-        <div className="App">
-            <Router>
-                <GlobalStyle/>
-                <Route exact path={"/painter_portfolio"}>
-                    <SectionBar/>
-                    <Header/>
-                    <Title Name={"GALERIA"}/>
-                    <SectionGallery/>
-                    <Footer/>
-                </Route>
-                <Route exact path={"/portfolio"}>
-                    <SectionBar/>
-                    <Header/>
-                    <Title Name={"PORTFOLIO"}/>
-                    <Portfolio/>
-                    <Footer/>
-                </Route>
-                <Route exact path={"/interiors"}>
-                    <SectionBar/>
-                    <Header/>
-                    <Title Name={"WNĘTRZA"}/>
-                    <SectionGallery/>
-                    <Footer/>
-                </Route>
-                <Route exact path={"/contact"}>
-                    <SectionBar/>
-                    <Header/>
-                    <Title Name={"KONTAKT"}/>
-                    <Contact/>
-                    <Footer/>
-                </Route>
-            </Router>
-        </div>
-    );
+  return (
+    <div className="App">
+      <Router>
+        <GlobalStyle />
+        <Route exact path={"/painter_portfolio"}>
+          <Navigation />
+         <div className = {'noNavi'}>
+
+          <Header />
+          <Title Name={"GALERIA"} />
+          <SectionGallery />
+          <Footer />
+          </div>
+        </Route>
+        <Route exact path={"/portfolio"}>
+          <Navigation />
+          <SectionBar />
+          <Header />
+          <Title Name={"PORTFOLIO"} />
+          <Portfolio />
+          <Footer />
+        </Route>
+        <Route exact path={"/interiors"}>
+          <Navigation />
+          <SectionBar />
+          <Header />
+          <Title Name={"WNĘTRZA"} />
+          <SectionGallery />
+          <Footer />
+        </Route>
+        <Route exact path={"/contact"}>
+          <Navigation />
+          <SectionBar />
+          <Header />
+          <Title Name={"KONTAKT"} />
+          <Contact />
+          <Footer />
+        </Route>
+      </Router>
+    </div>
+  );
 }
 
 export default App;
