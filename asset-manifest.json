@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/painter_portfolio/static/css/main.f891afc5.chunk.css",
-    "main.js": "/painter_portfolio/static/js/main.bbcb612c.chunk.js",
-    "main.js.map": "/painter_portfolio/static/js/main.bbcb612c.chunk.js.map",
+    "main.js": "/painter_portfolio/static/js/main.1a220be5.chunk.js",
+    "main.js.map": "/painter_portfolio/static/js/main.1a220be5.chunk.js.map",
     "runtime-main.js": "/painter_portfolio/static/js/runtime-main.95cc4673.js",
     "runtime-main.js.map": "/painter_portfolio/static/js/runtime-main.95cc4673.js.map",
     "static/js/2.aa6e94fe.chunk.js": "/painter_portfolio/static/js/2.aa6e94fe.chunk.js",
     "static/js/2.aa6e94fe.chunk.js.map": "/painter_portfolio/static/js/2.aa6e94fe.chunk.js.map",
     "index.html": "/painter_portfolio/index.html",
-    "precache-manifest.aece15067015696e84eaa8cbc9f63dc4.js": "/painter_portfolio/precache-manifest.aece15067015696e84eaa8cbc9f63dc4.js",
+    "precache-manifest.25c34b1ca4df6ebc7df98050b0d51c8a.js": "/painter_portfolio/precache-manifest.25c34b1ca4df6ebc7df98050b0d51c8a.js",
     "service-worker.js": "/painter_portfolio/service-worker.js",
     "static/css/main.f891afc5.chunk.css.map": "/painter_portfolio/static/css/main.f891afc5.chunk.css.map",
     "static/js/2.aa6e94fe.chunk.js.LICENSE.txt": "/painter_portfolio/static/js/2.aa6e94fe.chunk.js.LICENSE.txt",
@@ -31,6 +31,6 @@
     "static/js/runtime-main.95cc4673.js",
     "static/js/2.aa6e94fe.chunk.js",
     "static/css/main.f891afc5.chunk.css",
-    "static/js/main.bbcb612c.chunk.js"
+    "static/js/main.1a220be5.chunk.js"
   ]
 }
