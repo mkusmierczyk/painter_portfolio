@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/painter_portfolio/static/css/main.f891afc5.chunk.css",
-    "main.js": "/painter_portfolio/static/js/main.1a220be5.chunk.js",
-    "main.js.map": "/painter_portfolio/static/js/main.1a220be5.chunk.js.map",
+    "main.js": "/painter_portfolio/static/js/main.ace660b7.chunk.js",
+    "main.js.map": "/painter_portfolio/static/js/main.ace660b7.chunk.js.map",
     "runtime-main.js": "/painter_portfolio/static/js/runtime-main.95cc4673.js",
     "runtime-main.js.map": "/painter_portfolio/static/js/runtime-main.95cc4673.js.map",
-    "static/js/2.aa6e94fe.chunk.js": "/painter_portfolio/static/js/2.aa6e94fe.chunk.js",
-    "static/js/2.aa6e94fe.chunk.js.map": "/painter_portfolio/static/js/2.aa6e94fe.chunk.js.map",
+    "static/js/2.2b0e3961.chunk.js": "/painter_portfolio/static/js/2.2b0e3961.chunk.js",
+    "static/js/2.2b0e3961.chunk.js.map": "/painter_portfolio/static/js/2.2b0e3961.chunk.js.map",
     "index.html": "/painter_portfolio/index.html",
-    "precache-manifest.25c34b1ca4df6ebc7df98050b0d51c8a.js": "/painter_portfolio/precache-manifest.25c34b1ca4df6ebc7df98050b0d51c8a.js",
+    "precache-manifest.6feb5e527951a77974eed692db32ea77.js": "/painter_portfolio/precache-manifest.6feb5e527951a77974eed692db32ea77.js",
     "service-worker.js": "/painter_portfolio/service-worker.js",
     "static/css/main.f891afc5.chunk.css.map": "/painter_portfolio/static/css/main.f891afc5.chunk.css.map",
-    "static/js/2.aa6e94fe.chunk.js.LICENSE.txt": "/painter_portfolio/static/js/2.aa6e94fe.chunk.js.LICENSE.txt",
+    "static/js/2.2b0e3961.chunk.js.LICENSE.txt": "/painter_portfolio/static/js/2.2b0e3961.chunk.js.LICENSE.txt",
+    "static/media/background.png": "/painter_portfolio/static/media/background.baa58c3c.png",
     "static/media/envelope-regular.1a9020c3.svg": "/painter_portfolio/static/media/envelope-regular.1a9020c3.svg",
     "static/media/facebook-square-brands.34e73505.svg": "/painter_portfolio/static/media/facebook-square-brands.34e73505.svg",
     "static/media/image0.jpeg": "/painter_portfolio/static/media/image0.79eead8e.jpeg",
@@ -29,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.95cc4673.js",
-    "static/js/2.aa6e94fe.chunk.js",
+    "static/js/2.2b0e3961.chunk.js",
     "static/css/main.f891afc5.chunk.css",
-    "static/js/main.1a220be5.chunk.js"
+    "static/js/main.ace660b7.chunk.js"
   ]
 }

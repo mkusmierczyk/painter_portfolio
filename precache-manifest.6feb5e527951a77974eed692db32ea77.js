@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fcdb806280bc6465b6d5d59ac3e7a762",
+    "revision": "bdb1c347a7c45d317a4183412f964f76",
     "url": "/painter_portfolio/index.html"
   },
   {
-    "revision": "f0612946a045bf9a11ca",
+    "revision": "2ab1d8355ac110b72892",
     "url": "/painter_portfolio/static/css/main.f891afc5.chunk.css"
   },
   {
-    "revision": "7fb744ae1e9246e6eb43",
-    "url": "/painter_portfolio/static/js/2.aa6e94fe.chunk.js"
+    "revision": "ab3e7cd3563123fcbb6d",
+    "url": "/painter_portfolio/static/js/2.2b0e3961.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/painter_portfolio/static/js/2.aa6e94fe.chunk.js.LICENSE.txt"
+    "url": "/painter_portfolio/static/js/2.2b0e3961.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f0612946a045bf9a11ca",
-    "url": "/painter_portfolio/static/js/main.1a220be5.chunk.js"
+    "revision": "2ab1d8355ac110b72892",
+    "url": "/painter_portfolio/static/js/main.ace660b7.chunk.js"
   },
   {
     "revision": "f9481ab02d00d3dfd87b",
     "url": "/painter_portfolio/static/js/runtime-main.95cc4673.js"
+  },
+  {
+    "revision": "baa58c3c16b76d6e733e5f658ec2a3f8",
+    "url": "/painter_portfolio/static/media/background.baa58c3c.png"
   },
   {
     "revision": "1a9020c337be1b3a6556473307bb9a9f",
