@@ -2,12 +2,13 @@ import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { createGlobalStyle } from 'styled-components'
 import { normalize } from 'styled-normalize'
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Header from "./components/header";
 import SectionGallery from "./components/sectionGallery";
 import Footer from "./components/footer";
 import Portfolio from "./components/portfolio";
 import Contact from "./components/contact";
-import SectionBar from "./components/sectionBar";
+import SlideShow from "./components/slideshow";
 import Title from "./components/title";
 import Navigation from "./components/navigation";
 import './App.css';
@@ -67,17 +68,16 @@ $column-base-width: 100% / $columns;
   }
 }
 `
-
   return (
     <div className="App">
       <Router>
         <GlobalStyle />
-        <Route exact path={"/paintings"}>
+        <Route exact path={"/painter_portfolio"}>
           <Navigation />
          <div className = {'noNavi'}>
           <Header />
           <Title Name={"MALARSTWO"} />
-          <SectionGallery />
+          <SlideShow />
           <Footer />
           </div>
         </Route>

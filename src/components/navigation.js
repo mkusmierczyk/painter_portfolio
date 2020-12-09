@@ -15,11 +15,10 @@ function Navigation() {
   return (
     <>
       <nav class="navbar">
-     
         <ul class="navbar-nav">
           <li class="logo">
             <a href="#" class="nav-link">
-              <span class="link-text logo-text">Pasternak</span>
+              <span class="link-text logo-text">SilSil</span>
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -47,29 +46,29 @@ function Navigation() {
           </li>
 
           <li class="nav-item">
-            <NavLink exact={true} activeClassName='is-active' to="/paintings" class="nav-link">
+            <NavLink exact={true} activeClassName='is-active' to="/painter_portfolio" class="nav-link">
             <Pallete/>
-              <span class="link-text">Malarstwo</span>
+              <span class="link-text">OBRAZY</span>
             </NavLink>
           </li>
 
           <li class="nav-item">
             <NavLink exact={true} activeClassName='is-active' to="/graphics" class="nav-link">
               <Pencil/>
-              <span class="link-text">Grafika</span>
+              <span class="link-text">GRAFIKA</span>
             </NavLink>
           </li>
           <li class="nav-item">
             <NavLink exact={true} activeClassName='is-active' to="/about" class="nav-link">
              <AboutMe/>
-              <span class="link-text">O mnie</span>
+              <span class="link-text">ZDJĘCIA</span>
             </NavLink>
           </li>
 
           <li class="nav-item">
             <NavLink exact={true} activeClassName='is-active' to="/contact" class="nav-link">
               <Contact/>
-              <span class="link-text">Kontakt</span>
+              <span class="link-text">KONTAKT</span>
             </NavLink>
           </li>
 

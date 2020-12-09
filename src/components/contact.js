@@ -1,13 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
-import Painting4 from '../assets/image3.jpeg';
+import Painting4 from '../assets/image2.jpeg';
 import {Facebook} from '@styled-icons/boxicons-logos/Facebook'
 import {Instagram} from '@styled-icons/boxicons-logos/Instagram'
 import {Email} from '@styled-icons/evaicons-solid/Email'
 import {Mobile} from '@styled-icons/icomoon/Mobile'
+import Background from '../assets/background.png';
 
 function Contact() {
-
 
     const HeadIcon = `
     color: black;
@@ -32,16 +32,17 @@ function Contact() {
     `
 
     const ContactRow =  styled.div`
-    margin-top: 3rem;
+    padding-top: 3rem;
+    background: url(${Background}) ;
+    height: 90vh
     `
     const Contact = styled.div`
     width: 50%;
     display: flex;
-  
     align-items: center;
     flex-direction: column;
     margin: 5px;
-    @media (max-width: 600px){
+    @media (max-width: 720px){
     width:100%;}
     `
 
@@ -61,9 +62,7 @@ function Contact() {
     const ContactPhoto = styled.div`
         width: 50%;
         background: url(${Painting4}) no-repeat;
-        width: 50vw;
-        height: 50vw;
-        @media (max-width: 600px){
+        @media (max-width: 720px){
         display: none;
         }
      }
@@ -76,7 +75,7 @@ function Contact() {
                         <Title> <MobileIcon/></Title>
                         <Text href="tel:+48691326101">+48 691 326 101</Text>
                         <Title><EmailIcon/> </Title>
-                        <Text href="#">judamerkva@gmail.com</Text>
+                        <Text href="#">silsilvalley@gmail.com</Text>
                         <Title><FacebookIcon/></Title>
                         <Text href="#">Lorem Ipsum Dolor</Text>
                         <Title href="#"><InstagramIcon/> </Title>

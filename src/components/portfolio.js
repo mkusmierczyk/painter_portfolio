@@ -1,11 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
-import Painting4 from '../assets/image3.jpeg';
+import Painting4 from '../assets/image2.jpeg';
+import Background from '../assets/background.png';
 
 function Portfolio() {
 
     const Portfolio = styled.div`
-    
+    background: url(${Background});
+    back
     .portfolio_image{
      @media (max-width: 800px){
     display: none;
