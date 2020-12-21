@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-
+import {NavLink } from "react-router-dom";
 
 function Header() {
 
@@ -12,7 +12,7 @@ function Header() {
     background-color:  #141418;
     align-content: center;
     @media (max-width: 321px){
-    height: 15vh;
+    height: 299vh;
     }
 
     .align{
@@ -49,9 +49,10 @@ function Header() {
             <HeaderTag>
                     <div className="row align">
                         <Name href="#">
+                        <NavLink exact={true}  to="/painter_portfolio" class="nav-link">
                             MICHAL PASTERNAK
+                            </NavLink>
                         </Name>
-                    
                 </div>
             </HeaderTag>
         </>

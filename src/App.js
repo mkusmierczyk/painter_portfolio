@@ -10,6 +10,7 @@ import Portfolio from "./components/portfolio";
 import Contact from "./components/contact";
 import SlideShow from "./components/slideshow";
 import Title from "./components/title";
+import Background from './assets/background.png';
 import Navigation from "./components/navigation";
 import './App.css';
 
@@ -23,6 +24,8 @@ html {
    box-sizing: border-box;
    font-size: 16px;
     margin: 0px;
+    background: url(${Background}) ;
+
 }
 
 *, *:before, *:after {
@@ -76,11 +79,21 @@ $column-base-width: 100% / $columns;
           <Navigation />
          <div className = {'noNavi'}>
           <Header />
-          <Title Name={"MALARSTWO"} />
+          <Title Name={"STRONA GŁÓWNA"} />
           <SlideShow />
           <Footer />
           </div>
         </Route>
+        <Route exact path={"/paintings"}>
+          <Navigation />
+          <div className = {'noNavi'}>
+          <Header />
+          <Title Name={"OBRAZY"} />
+          <SectionGallery />
+          <Footer />
+          </div>
+        </Route>
+        
         <Route exact path={"/graphics"}>
           <Navigation />
           <div className = {'noNavi'}>
@@ -90,12 +103,12 @@ $column-base-width: 100% / $columns;
           <Footer />
           </div>
         </Route>
-        <Route exact path={"/about"}>
+        <Route exact path={"/photos"}>
           <Navigation />
           <div className = {'noNavi'}>
           <Header />
-          <Title Name={"O MNIE"} />
-          <Portfolio />
+          <Title Name={"ZDJĘCIA"} />
+          <SectionGallery />
           <Footer />
           </div>
         </Route>

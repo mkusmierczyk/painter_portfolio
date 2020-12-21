@@ -4,36 +4,30 @@ import Painting1 from '../assets/image0.jpeg';
 import Painting2 from '../assets/image1.jpeg';
 import Painting3 from '../assets/image2.jpeg';
 import Painting4 from '../assets/image3.jpg';
-import Painting5 from '../assets/image4.jpeg';
+import styled from 'styled-components';
 
 function SlideShow() {
 
-
-  const mystyle = {
-    width: "300px",
-    height: "300px"
-
-  };
-  
+  const imgStyle = {
+    width: "100vw",
+    height: "49vh" ,
+  }
 
   return (
-    <div style ={mystyle}>
-    <Slider dots autoplay ={true} arrows = {false} >
-    <div>
-      <h3>1</h3>
-      <img src = {Painting1}/>
+    <div className = {"slide row"}>
+    <Slider dots autoplay ={true} arrows = {false}  >
+    <div className = {"imgStyle"}>
+      <img  style ={imgStyle} src = {Painting1} alt ={"abc"}/>
     </div>
-    <div>
-      <h3>2</h3>
-      <img src = {Painting2}/>
+    <div className = {"imgStyle"}>
+      <img style ={imgStyle} src = {Painting2} alt ={"abc"}/>
     </div>
-    <div>
-      <h3>3</h3>
-      <img src = {Painting3}/>
+    <div className = {"imgStyle"}>
+      <img style ={imgStyle} src = {Painting3} alt ={"abc"}/>
     </div>
-    <div>
-      <h3>4</h3>
-      <img src = {Painting4}/>
+    <div className = {"imgStyle"}>
+      <img style ={imgStyle} src = {Painting4} alt ={"abc"}/>
+   
     </div>
 
   </Slider>

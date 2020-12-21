@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
-
 import { ReactComponent as Pallete } from "../assets/palette-solid.svg";
 import { ReactComponent as Pencil } from "../assets/pencil-ruler-solid.svg";
 import { ReactComponent as AboutMe } from "../assets/quote-left-solid.svg";
@@ -15,10 +14,11 @@ function Navigation() {
   return (
     <>
       <nav class="navbar">
+     
         <ul class="navbar-nav">
           <li class="logo">
-            <a href="#" class="nav-link">
-              <span class="link-text logo-text">SilSil</span>
+          <NavLink exact={true}  to="/painter_portfolio" class="nav-link">
+              <span class="link-text logo-text">SILSIL</span>
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -42,33 +42,33 @@ function Navigation() {
                   ></path>
                 </g>
               </svg>
-            </a>
+            </NavLink>
           </li>
 
           <li class="nav-item">
-            <NavLink exact={true} activeClassName='is-active' to="/painter_portfolio" class="nav-link">
+            <NavLink exact={true} activeClassName='is-active' to="/paintings" class="nav-link">
             <Pallete/>
-              <span class="link-text">OBRAZY</span>
+              <span class="link-text">Malarstwo</span>
             </NavLink>
           </li>
 
           <li class="nav-item">
             <NavLink exact={true} activeClassName='is-active' to="/graphics" class="nav-link">
               <Pencil/>
-              <span class="link-text">GRAFIKA</span>
+              <span class="link-text">Grafika</span>
             </NavLink>
           </li>
           <li class="nav-item">
-            <NavLink exact={true} activeClassName='is-active' to="/about" class="nav-link">
+            <NavLink exact={true} activeClassName='is-active' to="/photos" class="nav-link">
              <AboutMe/>
-              <span class="link-text">ZDJĘCIA</span>
+              <span class="link-text">Zdjęcia</span>
             </NavLink>
           </li>
 
           <li class="nav-item">
             <NavLink exact={true} activeClassName='is-active' to="/contact" class="nav-link">
               <Contact/>
-              <span class="link-text">KONTAKT</span>
+              <span class="link-text">Kontakt</span>
             </NavLink>
           </li>
 
@@ -76,14 +76,9 @@ function Navigation() {
             <a href="#" class="nav-link">
              <Instagram/>
             </a>
-             <a href="#" class="nav-link">
+             <a href="https://pasterfuckup.tumblr.com/" class="nav-link">
              <Tumblr/>
              </a>
-             <a href="#" class="nav-link">
-             <Facebook/>
-             </a>
-
-           
           </li>
         </ul>
       </nav>

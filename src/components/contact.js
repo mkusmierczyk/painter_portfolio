@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
-import Painting4 from '../assets/image2.jpeg';
-import {Facebook} from '@styled-icons/boxicons-logos/Facebook'
+import {Tumblr} from '@styled-icons/boxicons-logos/Tumblr'
 import {Instagram} from '@styled-icons/boxicons-logos/Instagram'
 import {Email} from '@styled-icons/evaicons-solid/Email'
 import {Mobile} from '@styled-icons/icomoon/Mobile'
 import Background from '../assets/background.png';
+import Portfolio from "./portfolio";
 
 function Contact() {
 
@@ -17,7 +17,7 @@ function Contact() {
   
     `
 
-    const FacebookIcon = styled(Facebook)`
+    const TumblrIcon = styled(Tumblr)`
     ${HeadIcon}
     `
 
@@ -34,7 +34,11 @@ function Contact() {
     const ContactRow =  styled.div`
     padding-top: 3rem;
     background: url(${Background}) ;
-    height: 90vh
+    height: 90vh;
+    @media (max-width: 813px){
+        display: flex;
+        flex-direction: column ;
+        
     `
     const Contact = styled.div`
     width: 50%;
@@ -42,7 +46,7 @@ function Contact() {
     align-items: center;
     flex-direction: column;
     margin: 5px;
-    @media (max-width: 720px){
+    @media (max-width: 812px){
     width:100%;}
     `
 
@@ -59,29 +63,21 @@ function Contact() {
     `
 
 
-    const ContactPhoto = styled.div`
-        width: 50%;
-        background: url(${Painting4}) no-repeat;
-        @media (max-width: 720px){
-        display: none;
-        }
-     }
-`
     return (
         <>
             <section className="container">
                 <ContactRow className="row">
-                    <Contact><h1>Kontakt</h1>
+                    <Contact ><h1>Kontakt</h1>
                         <Title> <MobileIcon/></Title>
                         <Text href="tel:+48691326101">+48 691 326 101</Text>
                         <Title><EmailIcon/> </Title>
-                        <Text href="#">silsilvalley@gmail.com</Text>
-                        <Title><FacebookIcon/></Title>
-                        <Text href="#">Lorem Ipsum Dolor</Text>
-                        <Title href="#"><InstagramIcon/> </Title>
-                        <Text href="#">Lorem Ipsum Dolor</Text>
+                        <Text href="silsilvalley@gmail.com">silsilvalley@gmail.com</Text>
+                        <Title href="https://pasterfuckup.tumblr.com/"><TumblrIcon/></Title>
+                        <Text href="https://pasterfuckup.tumblr.com/">Pasterfuckup</Text>
+                        <Title href="https://www.instagram.com/direct/inbox/"><InstagramIcon/> </Title>
+                        <Text href="https://www.instagram.com/direct/inbox/">Lorem Ipsum Dolor</Text>
                     </Contact>
-                    <ContactPhoto/>
+                    <Portfolio />
                 </ContactRow>
 
             </section>

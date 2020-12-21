@@ -5,23 +5,17 @@ import Background from '../assets/background.png';
 
 function Portfolio() {
 
-    const Portfolio = styled.div`
-    background: url(${Background});
-    back
-    .portfolio_image{
-     @media (max-width: 800px){
-    display: none;
-    }
-    
-    `
+
 
     const Events = styled.div` 
     width: 50%; 
     margin: 5px;
-    @media (max-width: 800px){
-    width: 100%;
+    @media (max-width: 813px){
+        width: 100%}  
     }
+        
     h1{
+     
     font-weight: bold;
     margin: 10px;
     text-align: center;
@@ -53,10 +47,10 @@ function Portfolio() {
 
     return (
         <>
-            <section className="container">
-                <Portfolio className="row">
+           
+              
                     <Events>
-                        <h1>WYDARZENIA</h1>
+                        <h1>KILKA SŁÓW</h1>
                         <Year>2019</Year>
                         <Event>
                             <EventName> LOREM</EventName>
@@ -85,11 +79,8 @@ function Portfolio() {
                         </Event>
 
                     </Events>
-                    <div className="col-6 portfolio_image">
-                        <Image/>
-                    </div>
-                </Portfolio>
-            </section>
+               
+          
         </>
     );
 }
