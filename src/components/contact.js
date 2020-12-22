@@ -75,7 +75,7 @@ function Contact() {
         <>
             <section className="a">
                 <ContactRow className="row">
-                    <Contact ><h1>KONTAKT   </h1>
+                    <Contact >
                         <Title> <MobileIcon/></Title>
                         <Text href="tel:+48691326101">+48 691 326 101</Text>
                         <Title><EmailIcon/> </Title>
