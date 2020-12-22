@@ -12,7 +12,7 @@ function Portfolio() {
     margin: 5px;
     padding-bottom: 6rem;
     @media (max-width: 813px){
-        width: 100%}  
+        width: 97%}  
     }
     h1{
     font-weight: bold;

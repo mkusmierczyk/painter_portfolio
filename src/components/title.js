@@ -1,7 +1,18 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 
 function Title(props) {
+
+    const [hide, setHide] = useState("flex")
+
+    useEffect(() => {
+        if (props.Name === "STRONA GŁÓWNA") {
+            setHide("none")
+        } else { setHide("flex") }
+
+    }, [props.Name]);
+
+
 
 
     const Title = styled.div`
@@ -16,6 +27,10 @@ function Title(props) {
     text-align: center;
     letter-spacing: 0.5ch;
     padding: 2rem 0;
+    @media (max-width: 321px){
+        display: ${hide};
+        }
+
     `
 
     return (

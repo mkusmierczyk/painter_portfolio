@@ -55,7 +55,7 @@ function Contact() {
     flex-direction: column;
     margin: 5px;
     @media (max-width: 812px){
-    width:100%;}
+    width:97%;}
     `
 
     const Text = styled.a`
