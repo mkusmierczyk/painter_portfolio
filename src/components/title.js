@@ -9,7 +9,7 @@ function Title(props) {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 15vh;
+    height: 12vh;
     font-size: 2.5vh;
     color: #ececec;
     background-color: #23232e;
