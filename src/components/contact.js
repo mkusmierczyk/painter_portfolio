@@ -34,14 +34,22 @@ function Contact() {
     const ContactRow =  styled.div`
     padding-top: 3rem;
     background: url(${Background}) ;
-    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    h1{
+        font-weight: bold;
+        margin: 10px;
+        text-align: center;
+         }
+
+ 
     @media (max-width: 813px){
         display: flex;
         flex-direction: column ;
         
     `
     const Contact = styled.div`
-    width: 50%;
+    width: 30%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -65,9 +73,9 @@ function Contact() {
 
     return (
         <>
-            <section className="container">
+            <section className="a">
                 <ContactRow className="row">
-                    <Contact ><h1>Kontakt</h1>
+                    <Contact ><h1>KONTAKT</h1>
                         <Title> <MobileIcon/></Title>
                         <Text href="tel:+48691326101">+48 691 326 101</Text>
                         <Title><EmailIcon/> </Title>
