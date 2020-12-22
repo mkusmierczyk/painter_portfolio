@@ -11,9 +11,7 @@ function Header() {
     height: 5rem;
     background-color:  #141418;
     align-content: center;
-    @media (max-width: 321px){
-    height: 299vh;
-    }
+   
 
     .align{
     display: flex;

@@ -10,12 +10,11 @@ function Portfolio() {
     const Events = styled.div` 
     width: 50%; 
     margin: 5px;
+    padding-bottom: 6rem;
     @media (max-width: 813px){
         width: 100%}  
     }
-        
     h1{
-     
     font-weight: bold;
     margin: 10px;
     text-align: center;
