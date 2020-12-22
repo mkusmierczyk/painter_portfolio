@@ -227,12 +227,16 @@
       margin-top: 1rem;
       margin-left: 1rem;
       margin-right: 1rem;
+    
     }
 
 
 
     .imgStyle img{
     height: 58vh !important; 
+    @media (max-width: 321px){
+      height: 45vh !important; 
+      }
       
     }
     

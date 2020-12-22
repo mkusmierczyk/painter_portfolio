@@ -11,6 +11,7 @@ function SlideShow() {
   const imgStyle = {
     width: "100vw",
     height: "49vh" ,
+    
   }
 
   return (
