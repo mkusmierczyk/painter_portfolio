@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "07a8853e64df3d59eb1284b68de0b9a8",
+    "revision": "196afefca64e0759685b9089aaaf5d6b",
     "url": "/painter_portfolio/index.html"
   },
   {
-    "revision": "2b9b1610f39a840054da",
+    "revision": "9f0815f38e2e3f290432",
     "url": "/painter_portfolio/static/css/2.4560749a.chunk.css"
   },
   {
-    "revision": "b98e07f2174ab62b3f01",
-    "url": "/painter_portfolio/static/css/main.ea7b5bda.chunk.css"
+    "revision": "816baabe38f976916f33",
+    "url": "/painter_portfolio/static/css/main.012e6520.chunk.css"
   },
   {
-    "revision": "2b9b1610f39a840054da",
-    "url": "/painter_portfolio/static/js/2.bc6ddb19.chunk.js"
+    "revision": "9f0815f38e2e3f290432",
+    "url": "/painter_portfolio/static/js/2.5d70228d.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/painter_portfolio/static/js/2.bc6ddb19.chunk.js.LICENSE.txt"
+    "url": "/painter_portfolio/static/js/2.5d70228d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b98e07f2174ab62b3f01",
-    "url": "/painter_portfolio/static/js/main.02959225.chunk.js"
+    "revision": "816baabe38f976916f33",
+    "url": "/painter_portfolio/static/js/main.56b01ba3.chunk.js"
   },
   {
     "revision": "f9481ab02d00d3dfd87b",
@@ -74,10 +74,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "efb5734b9db5e20049dbacb2cf34d32b",
     "url": "/painter_portfolio/static/media/quote-left-solid.efb5734b.svg"
-  },
-  {
-    "revision": "903368fba15218c247effc86024fbbb7",
-    "url": "/painter_portfolio/static/media/sill.903368fb.png"
   },
   {
     "revision": "b47090721c7a338b198b4f07141283c4",
