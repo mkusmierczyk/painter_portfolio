@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Painting4 from '../assets/image2.jpeg';
-import Background from '../assets/background.png';
+
 
 function Portfolio() {
 
@@ -35,14 +34,10 @@ function Portfolio() {
         margin-right: 10px;
         text-align: justify;
     `
-    const Image = styled.img`
-    background: url(${Painting4}) no-repeat ;
-        width: 50vw;
-        height: 50vw;
-      
-     }
+
+     
         
-    `
+    
 
     return (
         <>

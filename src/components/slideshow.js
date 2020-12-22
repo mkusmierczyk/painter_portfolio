@@ -1,8 +1,8 @@
 import React from 'react';
 import Slider from 'infinite-react-carousel';
-import Painting1 from '../assets/image0.jpeg';
-import Painting2 from '../assets/image1.jpeg';
-import Painting3 from '../assets/image2.jpeg';
+import Painting1 from '../assets/image0.jpg';
+import Painting2 from '../assets/image1.jpg';
+import Painting3 from '../assets/image2.jpg';
 import Painting4 from '../assets/image3.jpg';
 import styled from 'styled-components';
 

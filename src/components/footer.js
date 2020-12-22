@@ -11,8 +11,8 @@ function Footer() {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: sticky;
-   
+  
+  
   
     font-size: 0.6rem;
     width: 100%;

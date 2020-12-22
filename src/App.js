@@ -81,7 +81,6 @@ $column-base-width: 100% / $columns;
           <Header />
           <Title Name={"STRONA GŁÓWNA"} />
           <SlideShow />
-          <Footer />
           </div>
         </Route>
         <Route exact path={"/paintings"}>
@@ -90,7 +89,6 @@ $column-base-width: 100% / $columns;
           <Header />
           <Title Name={"OBRAZY"} />
           <SectionGallery />
-          <Footer />
           </div>
         </Route>
         
@@ -100,7 +98,6 @@ $column-base-width: 100% / $columns;
           <Header />
           <Title Name={"GRAFIKA"} />
           <SectionGallery />
-          <Footer />
           </div>
         </Route>
         <Route exact path={"/photos"}>
@@ -109,7 +106,6 @@ $column-base-width: 100% / $columns;
           <Header />
           <Title Name={"ZDJĘCIA"} />
           <SectionGallery />
-          <Footer />
           </div>
         </Route>
         <Route exact path={"/contact"}>
