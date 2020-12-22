@@ -14,28 +14,28 @@ function SectionGallery() {
         {
             src: Painting1,
             width: 2,
-            height: 1,
+            height: 3,
             title: "opis",
         },
         {
             src: Painting2,
             width: 2,
-            height: 1
+            height: 3,
         },
         {
             src: Painting3,
             width: 2,
-            height: 1
+            height: 3,
         },
         {
             src: Painting4,
             width: 2,
-            height: 1
+            height: 3,
         },
         {
             src: Painting5,
             width: 2,
-            height: 1
+            height: 3,
         },
     
 
