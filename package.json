@@ -6,8 +6,9 @@
   "dependencies": {
     "@brainhubeu/react-carousel": "^1.19.26",
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
-    "@fortawesome/react-fontawesome": "^0.1.13",
+    "@fortawesome/react-fontawesome": "^0.1.14",
     "@styled-icons/boxicons-logos": "^10.14.1",
     "@styled-icons/evaicons-solid": "^10.14.1",
     "@styled-icons/icomoon": "^10.14.1",

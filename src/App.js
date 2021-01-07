@@ -13,6 +13,7 @@ import Title from "./components/title";
 import Background from './assets/background.png';
 import Navigation from "./components/navigation";
 import './App.css';
+import { Banner } from './components/banner';
 
 
 function App() {
@@ -116,6 +117,9 @@ $column-base-width: 100% / $columns;
           <Contact />
           <Footer />
           </div>
+        </Route>
+        <Route exact path={"/banner"}>
+         <Banner/>
         </Route>
       </Router>
     </div>
